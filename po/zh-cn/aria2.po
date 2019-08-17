@@ -34,18 +34,18 @@ msgstr "Aria2"
 
 #: applications/luci-app-aria2/luasrc/controller/aria2.lua:21
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2.lua:49
-msgid "Aria2 Settings"
-msgstr "Aria2 配置"
+msgid "Aria2 Plus +"
+msgstr "Aria2 Plus +"
+
+
 
 #: applications/luci-app-aria2/luasrc/view/aria2/overview_status.htm:80
-msgid "Aria2 Status"
-msgstr "Aria2 状态"
+msgid "Aria2 Plus + Status"
+msgstr "Aria2 Plus + 状态"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2.lua:45
-msgid ""
-"Aria2 is a multi-protocol &amp; multi-source download utility, here you can "
-"configure the settings."
-msgstr "Aria2 是一个支持多协议多线程的下载器, 您可以在这里对其进行配置。"
+msgid "Aria2 is a lightweight multi-protocol & multi-source command-line download utility.It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.<br /><font color=\"red\">Plus + version can download a file from multiple sources/protocols and tries to utilize your maximum download bandwidth.</font>"
+msgstr "Aria2是一个轻量级的多协议和多源命令行下载实用程序。它支持HTTP/HTTPS,FTP,SFTP,BitTorrent和Metalink。<br /><font color=\"red\">Plus + 版本aria2可以从多个源/协议下载文件，并尝试利用您的最大下载带宽。真正加快您的下载体验。</font>"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2.lua:147
 msgid "Autosave session interval"
@@ -244,12 +244,12 @@ msgid "Task Settings"
 msgstr "任务设置"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/overview_status.htm:19
-msgid "The Aria2 service is not running."
-msgstr "Aria2 未运行"
+msgid "<strong><font color=\"red\">Aria2 Plus + is Not Running</font></strong>"
+msgstr "<strong><font color=\"red\">Aria2 Plus + 没有运行</font></strong>"
 
 #: applications/luci-app-aria2/luasrc/view/aria2/overview_status.htm:7
-msgid "The Aria2 service is running."
-msgstr "Aria2 正在运行"
+msgid "<strong><font color=\"green\">Aria2 Plus + is Running</font></strong>"
+msgstr "<strong><font color=\"green\">Aria2 Plus + 正在运行</font></strong>"
 
 #: applications/luci-app-aria2/luasrc/model/cbi/aria2.lua:92
 msgid "The default log file is /var/log/aria2.log"
