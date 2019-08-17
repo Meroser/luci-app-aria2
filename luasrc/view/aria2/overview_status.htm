@@ -4,7 +4,7 @@ XHR.poll(-1, '<%=luci.dispatcher.build_url("admin/services/aria2/status")%>', nu
 		var tb = document.getElementById('aria2_status');
 		if (data && tb) {
 			if (data.running) {
-				var links = '<em><%:The Aria2 service is running.%></em>';
+				var links = '<em><b><font color=green>Aria2 Plus+ <%:RUNNING%></font></b></em>';
 				if (data.yaaw) {
 					links += '<input class="cbi-button mar-10" type="button" value="<%:Open YAAW%>" onclick="openWebUI(\'yaaw\');" />';
 				}
@@ -16,7 +16,7 @@ XHR.poll(-1, '<%=luci.dispatcher.build_url("admin/services/aria2/status")%>', nu
 				}
 				tb.innerHTML = links;
 			} else {
-				tb.innerHTML = '<em><%:The Aria2 service is not running.%></em>';
+				tb.innerHTML = '<em><b><font color=red>Aria2 Plus+ <%:NOT RUNNING%></font></b></em>';
 			}
 		}
 	}
