@@ -42,7 +42,7 @@ function ipkg_ver_lined(pkg)
 	return ipkg_ver(pkg):gsub("%.", "-")
 end
 
-m = Map("aria2", translate("Aria2"), translate("Aria2 is a multi-protocol &amp; multi-source download utility, here you can configure the settings."))
+m = Map("aria2", translate("Aria2"), translate("Aria2 is a lightweight multi-protocol & multi-source command-line download utility.It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.<br /><font color=\"red\">Plus + version can download a file from multiple sources/protocols and tries to utilize your maximum download bandwidth.</font>"))
 
 m:section(SimpleSection).template  = "aria2/overview_status"
 
