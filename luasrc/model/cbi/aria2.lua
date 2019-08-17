@@ -46,7 +46,7 @@ m = Map("aria2", translate("Aria2"), translate("Aria2 is a lightweight multi-pro
 
 m:section(SimpleSection).template  = "aria2/overview_status"
 
-s = m:section(TypedSection, "aria2", translate("Aria2 Settings"))
+s = m:section(TypedSection, "aria2", translate("Aria2 Plus +"))
 s.addremove = false
 s.anonymous = true
 
